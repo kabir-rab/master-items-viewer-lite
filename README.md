@@ -9,11 +9,11 @@ Displays master dimensions and master measures with expressions and descriptions
 
 # How to Install
 ## Desktop
-Download this repo as .zip file. Once downloaded unzip all its content to the following folder 
+Download [v.1.0.0.1](https://github.com/kabir-rab/master-items-viewer-lite/releases/download/v.1.0.0.1/master-items-viewer-lite.zip). Once downloaded unzip all its content to the following folder 
 > Documents\Qlik\Sense\Extensions\
 
 ## Enterprise Server
-Download this repo as .zip file. Once downloaded, use the QMC to upload the zip file just like any other extensions.
+Download [v.1.0.0.1](https://github.com/kabir-rab/master-items-viewer-lite/releases/download/v.1.0.0.1/master-items-viewer-lite.zip). Once downloaded, use the QMC to upload the zip file just like any other extensions.
 
 # How to use
 Go to "edit" mode of a Qlik sense app. Then Custom objects > "Kab-s Game Example Bundle" > Master Items Viewer. Drag this to the work space and resize to your requirement, then please save and reload the browser. Once refreshed, you should now be able to see and search through your Master Measures and Master Dimensions. You can use the property panel to show/hide columns and change the table header appearance.  
