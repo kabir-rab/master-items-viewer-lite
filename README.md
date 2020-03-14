@@ -2,13 +2,9 @@
 Displays master dimensions and master measures with expressions and descriptions. This allows users to search the master items description or expression.
 ### _Please note: This is the lite version that works with Qlik Sense Enterprise pre November 2019 Release. For Qlik Sense Enterprise November 2019 + use [this version](https://github.com/kabir-rab/master-items-viewer). The new version includes more features._
 
-# Dimensional Score Card
-### _When using it for the first time - you will have to reload the page on browser after adding on the extension to display the measures and dimensions._
-_There is a clash with master items on Qlik Sense client hence the refresh. I will look at alternative way to do this to avoid this I think._
-
 ## Demo
 <p align="center">
-  <img width="70%" alt="Master Items Viewer" src="https://github.com/kabir-rab/master-items-viewer/blob/master/lib/img/master-items-viewer-new.gif">
+  <img width="70%" alt="Master Items Viewer" src="https://github.com/kabir-rab/master-items-viewer-lite/blob/master/lib/img/master-items-viewer-new.gif">
 </p>
 
 # How to Install
