@@ -26,7 +26,7 @@ function ( template, cssContent, prop, jQuery, qlik, myService ) {
 				masterItems,				
 				fetchData = masterItemService.getData().done(function(allMasterItems){	
 					masterItems = allMasterItems;
-					console.log(masterItems);
+					//console.log(masterItems);
 					getMasterLibrary(1);
 				}),
 				// function to create generic object for Master Dimensions and Master Measures

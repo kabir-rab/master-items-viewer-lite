@@ -32,7 +32,7 @@
                 <td ng-if="layout.props.showId"> {{$index + 1}} </td>                 
                 <td ng-if="layout.props.showName" class="tr-highlight"> {{item.qData.title}} </td> 
                 <td ng-if="layout.props.showDesc" class="tr-highlight"> {{item.qData.description}} </td> 
-                <td ng-if="layout.props.showExp" class="tr-highlight"> {{item.qData.expression}} </td>
+                <td ng-if="layout.props.showExp" class="tr-highlight"> <p ng-if="!item.qData.expression.length"> {{item.qData.expression.qFieldDefs}} </p><p ng-if="item.qData.expression.length"> {{item.qData.expression}} </p> </td>
                 <td ng-if="layout.props.showTag"> 
                     <div ng-if="item.qData.tags.length">                        
                         <ul class="qv-extension-mov-tags">
